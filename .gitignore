@@ -1,0 +1,7 @@
+# Environnement virtuel Python
+.venv/
+__pycache__/
+
+# Sorties générées par le pipeline et le script d'entraînement
+metrics.txt
+conf_matrix.png
