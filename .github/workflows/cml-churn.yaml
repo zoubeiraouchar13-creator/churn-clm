@@ -17,7 +17,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           python script.py
-      # sorties attendues : metrics.txt et conf_matrix.png
     
       - name: Generate Report
         env:
